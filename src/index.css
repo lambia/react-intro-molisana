@@ -32,23 +32,6 @@ a:hover {
 }
 
 
-/********************** HEADER CSS *************************/
-header {
-  text-align: center;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 1rem;
-}
-
-header nav li {
-  margin: 0.25rem 0;
-}
-
-
 /************************ MAIN CSS *************************/
 main {
   margin: 0.5rem 0;

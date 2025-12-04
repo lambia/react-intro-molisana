@@ -1,0 +1,14 @@
+.header {
+	text-align: center;
+}
+
+.header ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	gap: 1rem;
+}
+
+.header li {
+	margin: 0.25rem 0;
+}

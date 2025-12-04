@@ -1,7 +1,9 @@
+import style from "./Header.module.css"
+
 function Header() {
 
 	return (
-		<header>
+		<header className={style.header}>
 			<img id="logo" src="/logo.png" alt="Logo La Molisana" />
 
 			<nav>
