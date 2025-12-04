@@ -1,0 +1,11 @@
+.footer {
+	padding: 1rem;
+}
+
+.footerColumn {
+	width: 33%;
+}
+
+.footer ul {
+	list-style: none;
+}

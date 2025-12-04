@@ -30,30 +30,3 @@ a {
 a:hover {
   color: cadetblue;
 }
-
-
-/************************ MAIN CSS *************************/
-main {
-  margin: 0.5rem 0;
-  padding: 1rem;
-  background-image: url(/background.jpg)
-}
-
-main h1,
-main h2 {
-  margin: 0.5rem 0;
-}
-
-
-/********************** FOOTER CSS *************************/
-footer {
-  padding: 1rem;
-}
-
-.footerColumn {
-  width: 33%;
-}
-
-footer ul {
-  list-style: none;
-}

@@ -1,0 +1,10 @@
+.main {
+	margin: 0.5rem 0;
+	padding: 1rem;
+	background-image: url(/background.jpg)
+}
+
+.main h1,
+.main h2 {
+	margin: 0.5rem 0;
+}

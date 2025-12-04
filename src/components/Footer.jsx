@@ -1,12 +1,14 @@
+import style from "./Footer.css";
+
 function Footer() {
 
 	return (
-		<footer>
+		<footer className={style.footer}>
 			<div className="flex-container boxed">
-				<div className="footerColumn">
+				<div className={style.footerColumn}>
 					<img src="/logo.png" alt="La Molisana" />
 				</div>
-				<div className="footerColumn">
+				<div className={style.footerColumn}>
 					<h4>Pastificio</h4>
 					<ul>
 						<li><a href="#">Il Pastificio</a></li>
@@ -16,7 +18,7 @@ function Footer() {
 						<li><a href="#">Sartoria della pasta</a></li>
 					</ul>
 				</div>
-				<div className="footerColumn">
+				<div className={style.footerColumn}>
 					<h4>Prodotti</h4>
 					<ul>
 						<li><a href="#">Le classiche</a></li>
