@@ -1,0 +1,76 @@
+/************************* GENERIC CSS *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-image: url(/mountains.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.boxed {
+  width: 900px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+
+/********************** HEADER CSS *************************/
+header {
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+header nav li {
+  margin: 0.25rem 0;
+}
+
+
+/************************ MAIN CSS *************************/
+main {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background-image: url(/background.jpg)
+}
+
+main h1,
+main h2 {
+  margin: 0.5rem 0;
+}
+
+
+/********************** FOOTER CSS *************************/
+footer {
+  padding: 1rem;
+}
+
+.footerColumn {
+  width: 33%;
+}
+
+footer ul {
+  list-style: none;
+}
