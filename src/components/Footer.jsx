@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className={style.footer}>
 			<div className="flex-container boxed justify-content-space-around">
-				<div>
+				<div className="flex-container align-items-center">
 					<img src="/logo.png" alt="La Molisana" className={style.footerLogo} />
 				</div>
 				<div>
