@@ -4,11 +4,11 @@ function Footer() {
 
 	return (
 		<footer className={style.footer}>
-			<div className="flex-container boxed">
-				<div className={style.footerColumn}>
-					<img src="/logo.png" alt="La Molisana" />
+			<div className="flex-container boxed justify-content-space-around">
+				<div>
+					<img src="/logo.png" alt="La Molisana" className={style.footerLogo} />
 				</div>
-				<div className={style.footerColumn}>
+				<div>
 					<h4>Pastificio</h4>
 					<ul>
 						<li><a href="#">Il Pastificio</a></li>
@@ -18,7 +18,7 @@ function Footer() {
 						<li><a href="#">Sartoria della pasta</a></li>
 					</ul>
 				</div>
-				<div className={style.footerColumn}>
+				<div>
 					<h4>Prodotti</h4>
 					<ul>
 						<li><a href="#">Le classiche</a></li>
