@@ -38,3 +38,8 @@ a {
 a:hover {
   color: cadetblue;
 }
+
+/* classe per link attivo GLOBALE, senza modulo (v. header.jsx) */
+/* .activeLink {
+  background: cadetblue;
+} */

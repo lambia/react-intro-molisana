@@ -11,4 +11,18 @@
 
 .header li {
 	margin: 0.25rem 0;
+	padding: 0.25rem 0.5rem;
+}
+
+.active {
+	background: cadetblue;
+	border-radius: 0.25rem;
+}
+
+.active a {
+	color: white;
+}
+
+.active a:hover {
+	color: black;
 }
