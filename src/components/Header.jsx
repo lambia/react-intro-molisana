@@ -1,11 +1,12 @@
 import style from "./Header.module.css"
 import links from "../data/headerLinks"
+import Logo from "./Logo";
 
 function Header() {
 
 	return (
 		<header className={style.header}>
-			<img className="logo" src="/logo.png" alt="Logo La Molisana" />
+			<Logo />
 
 			<nav>
 				<ul>{

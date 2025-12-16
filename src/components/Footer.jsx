@@ -1,5 +1,6 @@
 import style from "./Footer.module.css";
 import footerSections from "../data/footerSections"
+import Logo from "./Logo";
 
 function Footer() {
 
@@ -7,7 +8,7 @@ function Footer() {
 		<footer className={style.footer}>
 			<div className="flex-container boxed justify-content-space-between">
 				<div className="flex-container align-items-center">
-					<img src="/logo.png" alt="La Molisana" className="logo" />
+					<Logo slogan="Molisana, pasta italiana!" />
 				</div>
 
 				{footerSections.map((sezione, i) => {
