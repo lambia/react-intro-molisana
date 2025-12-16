@@ -31,7 +31,7 @@ function Header() {
 
 	return (
 		<header className={style.header}>
-			<img id="logo" src="/logo.png" alt="Logo La Molisana" />
+			<img className="logo" src="/logo.png" alt="Logo La Molisana" />
 
 			<nav>
 				<ul>

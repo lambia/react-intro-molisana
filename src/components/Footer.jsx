@@ -31,7 +31,7 @@ function Footer() {
 		<footer className={style.footer}>
 			<div className="flex-container boxed justify-content-space-between">
 				<div className="flex-container align-items-center">
-					<img src="/logo.png" alt="La Molisana" className={style.footerLogo} />
+					<img src="/logo.png" alt="La Molisana" className="logo" />
 				</div>
 
 				{footerSections.map(sezione => {
