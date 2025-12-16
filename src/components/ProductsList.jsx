@@ -1,18 +1,20 @@
 import style from "./ProductsList.module.css";
 import products from "../data/products";
+import ProductCard from "./ProductCard";
 
 function ProductsList() {
 
 	return <div className={style.productsWrapper}>
 
-		{products.map(prodotto => {
+		{products.map(product => {
 
-			return <div className={style.card} key={prodotto.id}>
-				<h4>{prodotto.title}</h4>
-				<img src={prodotto.src} alt="" />
-				<p>Pasta {prodotto.type}</p>
-				<p>Tempo di cottura: {prodotto.time} minuti</p>
-			</div>
+			//Attenzione: in un map ricordiamoci di mettere la key sull'elemento restituito!
+
+			//Versione con props unificate (una prop con l'intero oggetto)
+			//return <ProductCard key={product.id} prodotto={product}  />
+
+			//Versione con singole props
+			return <ProductCard key={product.id} nome={product.title} image={product.src} tipo={product.type} cottura={product.time} />
 
 		})}
 

@@ -4,19 +4,3 @@
 	gap: 1rem;
 
 }
-
-.card {
-	background-color: white;
-	width: 30%;
-	padding: 1rem;
-	text-align: center;
-	border-radius: 0.5rem;
-}
-
-.card h4 {
-	height: 2.5rem;
-}
-
-.card img {
-	width: 100%;
-}
